@@ -1,0 +1,167 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: crimson; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(198, 18, 54); 
+}
+
+.headers{
+  padding: 0.5rem 9rem;
+  border-bottom: 1px solid #f0eeee;
+}
+
+.head-container{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.head-container img{
+  width: 200px;
+  object-fit: cover;
+}
+
+.form-style{
+  display: flex;
+  align-items: center;
+  border: 1px solid #ccc;
+  width: 300px;
+  padding: 7px;
+  border-radius: 1rem;
+}
+
+.form-style input{
+  width: 85%;
+  border: none;
+  font-size: 18px;
+  outline: none;
+  padding-left: 4px;
+}
+
+.form-icons {
+  padding-left: 15px;
+}
+
+.btn-style{
+  padding: 8px 24px;
+  border-radius: 7px;
+  border: 1px solid crimson;
+  color: #fff;
+  font-size: 17px;
+  background-color: crimson;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin-left: 15px;
+}
+
+.btn-style:hover{
+  background-color: #fff;
+  color: crimson;
+}
+
+.btn-box a{
+  font-size: 17px;
+  text-decoration: none;
+}
+
+.video-page{
+  border: 1px solid #f0eeee;
+  width: 500px;
+  margin: 0 auto;
+  margin-top: 20px;
+  height: 82vh;
+  overflow-y: auto;
+  padding: 10px;
+}
+
+.video-player{
+  width: 340px;
+  height: 450px;
+  object-fit: cover;
+  border-radius: 6px;
+}
+
+.videos-block{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+}
+
+.video-section-style{
+  position: relative;
+}
+
+.video-icons-style{
+  position: absolute;
+  right: 20px;
+  z-index: 100;
+  bottom: 27%;
+}
+
+.video-icons-style ul{
+  list-style-type: none;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 25px;
+  font-size: 14px;
+}
+
+.video-icons-style ul li{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+}
+
+.video-footer-style{
+  position: absolute;
+  bottom: 15px;
+  left: 15px;
+}
+
+.video-footer-style ul{
+  list-style-type: none;
+}
+
+.video-footer-style ul li h2{
+  font-size: 20px;
+  color: #fff;
+  font-weight: 500;
+}
+
+.video-footer-style ul li span{
+  font-size: 14px;
+  color: #ccc;
+}
+
+.video-footer-style ul .thirtLi{
+  display: flex;
+  gap: 6px;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.icons{
+  cursor: pointer;
+}
